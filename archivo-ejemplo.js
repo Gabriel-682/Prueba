@@ -1,6 +1,3 @@
-var a = 1;
-var b = 2;
+var numero = 1;
 
-var nada = a + b;
-
-console.log(nada);
+console.log(numero);

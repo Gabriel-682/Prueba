@@ -1,3 +1,10 @@
-var numero = 1;
+var numero = 2;
 
-console.log(numero);
+switch (numero) {
+    case 1:
+        console.log("Hola");
+        break;
+    case 2:
+        console.log("Cómo va?");
+        break;
+}

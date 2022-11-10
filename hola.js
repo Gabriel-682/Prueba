@@ -1,3 +1,14 @@
-var saludo = "Hola";
+var nombre = "fernando";
 
-console.log(saludo);
+var array = nombre.split("");
+
+array.forEach(function (elemento, indice, array) {
+  if (indice === 0) {
+   array.shift();
+   array.unshift(elemento.toUpperCase()); 
+  }
+});
+
+var resultado = array.join("");
+
+console.log(resultado);

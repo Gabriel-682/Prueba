@@ -1,10 +1,8 @@
-var numero = 2;
+var numero = 1232;
 
-switch (numero) {
-    case 1:
-        console.log("Hola");
-        break;
-    case 2:
-        console.log("Cómo va?");
-        break;
-}
+var texto1 = numero.toString();
+var texto2 = numero.toString().split("").reverse().join("");
+
+
+console.log(texto1, texto2);
+

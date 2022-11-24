@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+p {
+    color: blue;
+}
+#1 {
+    background-color: aquamarine;
+}
+
+h3 {
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+ul {
+    color: indigo;
+    font-size: x-large;
+}
+
+#2 {
+    background-color: darkgray;
+}

@@ -1,8 +1,7 @@
-var numero = 12328;
+var array = ["hola", "como", "estas", "hola", "estas", "hola"];
+var resultado = {};
+array.map((elemento) =>
+resultado[elemento] ? resultado[elemento]++ : resultado[elemento] = 1);
 
-var texto1 = numero.toString();
-var texto2 = numero.toString().split("").reverse().join("");
-
-
-console.log(texto1, texto2);
+console.log(resultado);
 
